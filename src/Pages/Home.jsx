@@ -9,7 +9,7 @@ function Home() {
   useEffect(() => {
     setloading(true);
     axios
-      .get("http://localhost:5000/books")
+      .get("https://bookstore-server-i2ip.onrender.com/books")
       .then((response) => {
         setbooks(response.data.data);
         setloading(false);
