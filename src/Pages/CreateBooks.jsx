@@ -43,7 +43,7 @@ const CreateBooks = () => {
             <label className="text-xl mr-4 text-gray-400">Title</label>
             <input
               type="text"
-              value={title}
+              value={title} 
               onChange={(e) => setTitle(e.target.value)}
               className="border-2 border-gray-500 px-4 py-2 w-full"
             />
